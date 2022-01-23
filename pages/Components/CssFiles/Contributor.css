@@ -1,0 +1,59 @@
+.contributorPage {
+    background: white;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cListDownloadBtn {
+    color: white;
+    background: #FF7878;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 10px solid #FF7878;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contributorPageTag {
+    height: 1000px;
+    margin-left: 220px;
+    padding-top: 20px;
+}
+
+
+/* api table css */
+
+.contributorTable th {
+    border: 1px solid #dddddd;
+    border-radius: 15px;
+    text-align: left;
+    padding: 8px;
+    color: #FF7878;
+  }
+
+.contributorTable td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+.contributorTable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+.contributorTable tr:nth-child(even) {
+    background-color: #F7E4E3;
+  }
+
+.contributorTable a {
+    color: #FF7878;
+    text-decoration: none;
+}
+.contributorTable a:hover {
+    color: #D8F4FF;
+}

@@ -1,0 +1,22 @@
+.ngoPage {
+    background: white;
+    flex-direction: column;
+    height: 100%;
+}
+
+.ngoListDownloadBtn {
+    color: white;
+    background: #FFA474;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    border: 10px solid#FFA474;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ngoPageTag {
+    height: 1000px;
+    margin-left: 220px;
+}

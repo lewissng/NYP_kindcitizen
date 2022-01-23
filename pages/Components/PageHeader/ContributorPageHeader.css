@@ -1,0 +1,42 @@
+.contributorPageHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    height: 56px;
+    z-index: 200;
+}
+
+.contributorHeader__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+    left: 100px;
+}
+
+.contributorPageHeaderTitle {
+    left: 10px;
+    font-size: 2rem;
+}
+
+.contributorPageHeaderTitle li {
+    padding: 0 0.5rem;
+}
+
+.contributorPageHeaderTitle ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.contributorPageHeaderTitle a {
+    color: #FF7878;
+    text-decoration: none;
+}
+
+.contributorHeaderSpacer {
+    flex: 0.9;
+}

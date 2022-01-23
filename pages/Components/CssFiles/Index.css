@@ -1,0 +1,73 @@
+.row1Cards {
+    display: flex;
+    margin-left: 30px;
+    /* border: 10px solid #C196F4; */
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.cardTitle a {
+    color: white;
+    text-decoration: none;
+}
+
+.cardContent {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 20px ;
+}
+
+.card1 {
+    padding: 10px 70px 70px 20px;
+    border: 10px solid #FF7878;
+    background-color: #FF7878;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.card2 {
+    padding: 10px 70px 70px 20px;
+    border: 10px solid #FFA474;
+    background-color: #FFA474;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.card3 {
+    padding: 10px 70px 70px 20px;
+    border: 10px solid #FFDD7B;
+    background-color: #FFDD7B;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.card4 {
+    padding: 10px 70px 70px 20px;
+    border: 10px solid #C196F4;
+    background-color: #C196F4;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/* .indexMainStyle {
+    border: 10px solid #FFDD7B;
+} */
+
+.indexPageContent {
+    border-top: 1px solid black;
+    background: white;
+    height: 1000px;
+}
+
+.indexPageTitle {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: black;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}

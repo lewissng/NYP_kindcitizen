@@ -1,0 +1,32 @@
+.ngoInfoPage {
+    background: white;
+    flex-direction: column;
+    height: 100%;
+}
+
+.ngoInfoPageTag {
+    height: 1000px;
+    margin-left: 350px;
+}
+
+.ngoInfoFormClass input {
+    width: 20%;
+    padding: 8px 15px;
+    border: 2px solid #FFA474;
+    border-radius: 4px;
+    margin: 8px 0;
+}
+
+.ngoInfoFormClass input:focus {
+    border: 2px solid red;
+}
+
+.ngoInfoFormClass label {
+    float: left;
+    width: 10em;
+    margin-right: 1em;
+    margin-top: 15px;
+    color: #FFA474;
+    font-weight: bold;
+    font-size: 1.5rem;
+    }

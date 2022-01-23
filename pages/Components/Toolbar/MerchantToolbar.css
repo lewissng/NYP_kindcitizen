@@ -1,0 +1,67 @@
+.merchantToolbar {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 100%;
+    background: #FFC621;
+    height: 75px;
+    z-index: 200;
+}
+
+.merchantToolbar__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.merchantToolbar__logo {
+    margin-left: 8rem;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+}
+
+/* .toolbar__logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.1rem;
+} */
+
+.merchantSpacer {
+    flex: auto;
+}
+
+.merchantToolbar_navigation-items {
+    margin-right: 110px;
+
+}
+
+.merchantToolbar_navigation-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border: 10px solid white;
+    border-radius: 25px;
+    background: white;
+
+}
+
+.merchantToolbar_navigation-items li {
+    padding: 0 0.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.merchantToolbar_navigation-items a {
+    color: #FFC621;
+    text-decoration: none;
+}
+
+.merchantToolbar_navigation-items a:hover,
+.merchantToolbar_navigation-items a:active {
+    color: #FFC621;
+}

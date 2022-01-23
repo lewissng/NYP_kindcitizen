@@ -1,0 +1,32 @@
+.merchantInfoPage {
+    background: white;
+    flex-direction: column;
+    height: 100%;
+}
+
+.merchantInfoPageTag {
+    height: 1000px;
+    margin-left: 350px;
+}
+
+.merchantInfoFormClass input {
+    width: 20%;
+    padding: 8px 15px;
+    border: 2px solid #FFC621;
+    border-radius: 4px;
+    margin: 8px 0;
+}
+
+.merchantInfoFormClass input:focus {
+    border: 2px solid red;
+}
+
+.merchantInfoFormClass label {
+    float: left;
+    width: 10em;
+    margin-right: 1em;
+    margin-top: 15px;
+    color: #FFC621;
+    font-weight: bold;
+    font-size: 1.5rem;
+    }
